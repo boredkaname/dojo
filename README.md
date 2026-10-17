@@ -4,7 +4,7 @@
 
 **Apprendre le japonais (JLPT N5 → N3) et l'anglais (B2 → C2), en français, avec un coach IA qui tourne sur ton PC.**
 
-[**Télécharger pour Windows**](https://github.com/boredkaname/dojo/releases/latest) · Windows 10 / 11 · gratuit · mises à jour automatiques
+[**Télécharger pour Windows**](https://github.com/boredkaname/dojo/releases/latest) · [**Télécharger pour Android**](https://github.com/boredkaname/dojo/releases/latest) · gratuit · mises à jour automatiques
 
 </div>
 
@@ -39,15 +39,22 @@ Il répond à tes questions, corrige tes phrases, discute avec toi, invente des 
 2. Windows peut afficher « Windows a protégé votre ordinateur » (l'installeur n'est pas signé) : **Informations complémentaires → Exécuter quand même**.
 3. C'est tout : Dojo vérifie les nouvelles versions à chaque lancement et propose de se mettre à jour.
 
-### Activer Sensei (facultatif)
+### Sur Android
+1. Sur ton téléphone, télécharge `Dojo-Android-vX.Y.Z.apk` depuis la [dernière version](https://github.com/boredkaname/dojo/releases/latest) et ouvre-le.
+2. Android demande d'autoriser l'installation d'applications de cette source : accepte (le fichier ne vient pas du Play Store).
+3. Dojo propose ensuite lui-même ses mises à jour (Android 8 ou plus récent, environ 20 Mo).
+
+La version Android est allégée : tout y est sauf Sensei (pas de coach IA sur téléphone). Pour une voix japonaise, installe le japonais dans les réglages de synthèse vocale d'Android.
+
+### Activer Sensei (facultatif, sur PC)
 1. Installe [Ollama](https://ollama.com/download).
 2. Dans un terminal : `ollama pull gemma4:12b` (plusieurs Go à télécharger ; un PC avec 16 Go de mémoire est conseillé).
 3. Relance Dojo : Sensei est prêt. Un autre modèle se choisit dans **Profil → Sensei**.
 
 ## Tes données
 
-Ta progression est enregistrée **sur ton PC**. Pour la retrouver sur un autre ordinateur :
-- **Profil → Données → Sauvegarder dans mon compte**, puis **Récupérer sur cet appareil** sur l'autre PC (compte Dojo nécessaire, le même que pour le multijoueur) ;
+Ta progression est enregistrée **sur ton appareil**. Pour la retrouver sur un autre ordinateur ou sur ton téléphone :
+- **Profil → Données → Sauvegarder dans mon compte**, puis **Récupérer sur cet appareil** sur l'autre appareil (compte Dojo nécessaire, le même que pour le multijoueur) ;
 - ou **Exporter** un fichier de sauvegarde et l'**Importer** ailleurs.
 
 Le compte ne sert qu'au multijoueur et à cette sauvegarde : un pseudo et un mot de passe, aucune adresse e-mail.
